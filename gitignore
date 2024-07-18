@@ -1,0 +1,94 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+.env/
+*.egg-info/
+*.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.project
+
+# Logs
+*.log
+
+# Pytest
+.cache/
+*.cover
+nosetests.xml
+coverage.xml
+*.hypothesis/
+*.tox/
+*.nox/
+*.coverage
+*.pytest_cache/
+
+# Selenium
+*.screenshot
+*.png
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+
+# Additional
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Configuration files
+*.config
+*.yaml
+*.yml
+*.ini
+*.json
+
+# Build files
+dist/
+build/
+*.egg
+*.egg-info/
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Data files
+*.csv
+*.xls
+*.xlsx
+*.json
+
+# Miscellaneous
+*.orig
+*.rej
+*.swo
+*.swp
+*.class
+
+# For pipenv
+Pipfile.lock
